@@ -14,8 +14,6 @@
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>หน้าแนะนำ</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="{{route('page.p1')}}">กาแฟ</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="{{route('page.p2')}}">ขนม</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="{{route('page.a')}}">เกี่ยวกับ</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="{{route('page.c')}}">ช่องทางติดต่อ</a></li>
             </ul>
@@ -30,7 +28,7 @@
           </div>
 
           <div class="col-lg-3 col-md-6 footer-links">
-          <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+          <div>Icons from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
           </div>
 
         </div>

@@ -43,8 +43,8 @@ Route::get('/admin/user/delete/{id}','Admin\UserController@delete');
 Route::get('/page', 'page\PageController@index')->name('page');
 Route::get('/aboutpage', 'page\PageController@about')->name('page.a');
 Route::get('/contactpage', 'page\PageController@contact')->name('page.c');
-Route::get('/product1page', 'page\PageController@product1')->name('page.p1');
-Route::get('/product2page', 'page\PageController@product2')->name('page.p2');
+Route::get('/productpage', 'page\PageController@product')->name('page.p');
+
 
 Auth::routes();
 

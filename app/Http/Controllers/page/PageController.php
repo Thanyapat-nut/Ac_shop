@@ -16,11 +16,8 @@ class PageController extends Controller
     public function contact(){
         return view('admin.page.pagecontact');
     }
-    public function  product1(){
-        return view('admin.page.pageproduct1');
-    }
-    public function product2(){
-        return view('admin.page.pageproduct2');
+    public function  product(){
+        return view('admin.page.pageproduct');
     }
    
     //
