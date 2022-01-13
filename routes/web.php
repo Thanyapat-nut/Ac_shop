@@ -17,6 +17,9 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+//ค้นหาข้อมูลแบบเลือกประเภทสินค้า
+Route::get('/product/category/{id}','Admin\ProductController@findCategory');
+
 //route admin
 Route::get('/admin/index', 'Admin\AdminController@index')->name('index');
 

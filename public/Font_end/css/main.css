@@ -724,7 +724,7 @@ h2.title:before{
 .category-products .panel-default .panel-heading .panel-title a {
   color: #696763;
   font-family: 'Roboto', sans-serif;
-  font-size: 14px;
+  font-size: 18px;
   text-decoration: none;
   text-transform: uppercase;
 }
@@ -1094,12 +1094,7 @@ h2.title {
   width: 100%;
 }
 
-.pagination {
-  display: inline-block;
-  margin-bottom: 25px;
-  margin-top: 0;
-  padding-left: 15px;
-}
+
 
 .pagination  li:first-child  a, .pagination  li:first-child  span {
   border-bottom-left-radius: 0;
@@ -1113,8 +1108,8 @@ h2.title {
 }
 
 .pagination  .active  a, .pagination  .active  span, .pagination  .active  a:hover, .pagination  .active  span:hover, .pagination  .active  a:focus, .pagination  .active  span:focus {
-  background-color: #8004b9;
-  border-color: #8004b9;
+  background-color: red;
+  border-color: red;
   color: #FFFFFF;
   cursor: default;
   z-index: 2;
@@ -1134,7 +1129,7 @@ h2.title {
 }
 
 .pagination  li  a:hover{
-	background:#8004b9;
+	background:red;
 	color:#fff;
 }
 

@@ -3,6 +3,8 @@
 namespace App\Http\Controllers\page;
 
 use App\Http\Controllers\Controller;
+use App\Product;
+use App\Category;
 use Illuminate\Http\Request;
 
 class PageController extends Controller
@@ -17,7 +19,9 @@ class PageController extends Controller
         return view('admin.page.pagecontact');
     }
     public function  product(){
-        return view('admin.page.pageproduct');
+        return view('admin.page.pageproduct')
+        ->with('product',Product::paginate(6))
+        ->with('category',Category::all());
     }
    
     //

@@ -112,4 +112,13 @@ class ProductController extends Controller
         $delete->delete();
         return redirect()->route('index');
     }
+
+    public function findCategory($category_id){
+        $category = Category::find($category_id);
+        return view('admin.product.findproduct')
+        ->with('category',Category::all()->sortBy('name'))
+        ->with('product',$category->product()->paginate(6));
+
+    }
+
 }
