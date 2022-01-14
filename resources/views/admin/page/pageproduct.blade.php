@@ -55,7 +55,7 @@
 
                 <div class="features_items">
                     <!--features_items-->
-                    <h2 class="title text-center">หน้าสินค้า</h2>
+                    <h2 class="title text-center">สินค้าทั้งหมด</h2>
                     
                     <div class="container">
                         <div class="row">
