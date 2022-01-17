@@ -19,7 +19,10 @@
                     <p><Strong>Phone :</Strong> {{Auth::user()->phone}}</p>
                     <p><Strong>created_at :</Strong> {{Auth::user()->created_at}}</p>
                     {{-- ปุ่ม --}}
+                    @if (Auth::user()->checkIsAdmin())
                     <a href="{{route('index')}}" class="btn btn-primary">Product</a>
+                    @endif
+                    
                     <a href="{{route('page')}}"class="btn btn-success">Home</a>  
                 </div>
             </div>
